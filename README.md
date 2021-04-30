@@ -9,8 +9,10 @@ Para montar los contenedores se debe ejecutar el comando `docker-compose up -d -
 ## Base de datos
 
 Ejecutar el comando `php artisan migrate --seed` para crear las tablas y poblarlas de forma general.
-Recordar crear el archivo .env y llenar los datos de acceso a la base de datos, datos que se encuentran en `docker-compose.yml` y no olvidar ejecutar `php artisan key:generate`
-En caso de tener problemas con la imagen de MySQL cambiar la version de `mysql:8`  a `mysql:5.7.22` en el archivo `docker-compose.yml`
+
+Recordar crear el archivo .env y llenar los datos de acceso a la base de datos, datos que se encuentran en `docker-compose.yml` y no olvidar ejecutar `php artisan key:generate`.
+
+En caso de tener problemas con la imagen de MySQL cambiar la version de `mysql:8`  a `mysql:5.7.22` en el archivo `docker-compose.yml`.
 
 
 
